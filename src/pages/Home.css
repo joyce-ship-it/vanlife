@@ -1,0 +1,49 @@
+.home {
+  min-height: 90vh;
+  background-image: url("../assets/home.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.text {
+  min-height: 90vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+}
+
+.home h1 {
+  font-size: 2.2rem;
+}
+.home a {
+  color: whitesmoke;
+}
+.home a:hover {
+  color: hotpink;
+}
+
+.home p {
+  font-size: 1.2rem;
+}
+
+.home button {
+  font-size: 1.2rem;
+  width: 80%;
+  padding: 0.5rem;
+  color: white;
+  background-color: #ea580c;
+  height: 3rem;
+  transition: background-color 0.5s ease-in;
+}
+.home button:hover {
+  transition: background-color;
+  background-color: #fdba74;
+  color: black;
+}

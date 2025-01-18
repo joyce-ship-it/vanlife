@@ -1,0 +1,51 @@
+.about {
+  min-height: 90vh;
+  background-color: #facc15;
+}
+img {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+article {
+  padding: 1rem;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article p {
+  font-size: 1.2rem;
+  width: max(30ch, 60%);
+  text-align: center;
+  line-height: 1.5;
+}
+
+article button {
+  color: yellow;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  transition: background-color 0.5s ease-in-out;
+}
+article button:hover {
+  transition: background-color;
+  background-color: #fde047;
+  color: black;
+  transition-duration: 0.5s;
+}
+.advert {
+  margin-top: 4rem;
+  width: 80%;
+  background: #fde047;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
