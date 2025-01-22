@@ -1,0 +1,53 @@
+.vanContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1917;
+}
+.van-detail {
+  width: 80%;
+  min-height: 90vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.van-detail img {
+  width: min(90%, 550px);
+  height: 400px;
+  object-fit: cover;
+}
+.van-detail span {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background: black;
+  color: #f43f5e;
+  border-radius: 0.8rem;
+}
+.van-detail h2 {
+  font-size: 2.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f43f5e;
+}
+
+.van-detail article {
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: max(90%, 15rem);
+  color: #f43f5e;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.price {
+  font-size: 2rem;
+}
+.link-button {
+  width: 80%;
+  padding: 0.5rem;
+  background-color: #f59e0b;
+  color: #fde68a;
+}

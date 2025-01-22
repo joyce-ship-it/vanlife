@@ -1,0 +1,34 @@
+.van {
+  width: min(80vw, 300px);
+  height: 300px;
+  background-color: #0c0a09;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.van:hover {
+  border: 1px solid rgb(0, 255, 64);
+}
+
+.van img {
+  height: 70%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  margin-bottom: 1rem;
+}
+.type {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #57534e;
+  color: #ffe4e6;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+}

@@ -20,9 +20,9 @@ header {
   align-items: center;
   background-color: #0c0a09;
   color: #facbd0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 header a {
@@ -30,15 +30,12 @@ header a {
 }
 .links > a {
   margin-left: 2rem;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 header a:hover {
   color: #ed7890;
   transition-duration: 0.5s;
-}
-.logo {
-  text-decoration: none;
 }
 
 footer {
@@ -51,4 +48,94 @@ footer {
   font-size: 1rem;
   background: #0c0a09;
   color: #ed7890;
+}
+
+main {
+  flex: 1;
+}
+
+.active {
+  color: #be123c;
+  text-decoration: underline;
+}
+
+a {
+  color: #fda4af;
+  text-decoration: none;
+  padding: 15px;
+}
+
+a:hover {
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+.hostdetailscontainer {
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.hostdetailscontainer nav {
+  width: 80%;
+  max-width: 600px;
+  background-color: #312e81;
+  color: #7dd3fc;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.hostdetailscontainer nav a:hover {
+  color: #0c0a09;
+}
+
+.hostdetails {
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #312e81;
+  padding: 1rem;
+}
+.hostdetails img {
+  flex: 1;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.hostdetails .info {
+  flex: 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: #bfdbfe;
+}
+.info .type {
+  background-color: #7dd3fc;
+  color: #333;
+  width: 4rem;
+}
+
+.hostdetailscontainer nav .active {
+  color: #0c0a09;
+}
+.hostdetailscontainer section {
+  width: 80%;
+  max-width: 600px;
+  background-color: #1c1917;
+  color: #fda4af;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  text-align: left;
 }

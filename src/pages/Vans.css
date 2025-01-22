@@ -1,0 +1,45 @@
+.vans {
+  min-height: 90vh;
+  background: #171717;
+  color: #facc15;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.option {
+  background-color: #022c22;
+  color: #6ee7b7;
+  transition: background-color 0.5s ease-in-out;
+  padding: 0.5rem;
+}
+.option:hover {
+  transition: background-color;
+  background-color: #16a34a;
+}
+
+.clear {
+  background-color: #dc2626;
+  color: #fecaca;
+  transition: background-color 0.5s ease-in;
+  padding: 0.5rem;
+}
+.clear:hover {
+  transition: background-color;
+  background-color: #450a0a;
+  color: white;
+}
+.vans a {
+  text-decoration: none;
+  color: #facc15;
+}
