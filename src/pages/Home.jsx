@@ -8,7 +8,9 @@ export default function Home() {
         <p>
           Go to <Link to="about">About</Link>
         </p>
-        <button>Find your Van</button>
+        <Link to="vans" style={{ minWidth: "80%" }}>
+          <button>Find your Van</button>
+        </Link>
       </div>
     </div>
   );
